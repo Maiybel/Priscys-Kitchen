@@ -12,7 +12,7 @@ const About = () => {
         <div className="flex justify-center md:justify-start">
           <div className="relative w-52 h-52 md:w-64 md:h-64 lg:w-72 lg:h-72">
             <img
-              src="../public/prisy's logo.jpg"
+              src="/prisy's logo.jpg"
               alt="Priscy's logo"
               className="object-cover rounded-full w-full h-full shadow-lg"
             />

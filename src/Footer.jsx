@@ -11,9 +11,9 @@ function Footer() {
             className="tracking-wider lora-heading capitalize text-3xl md:text-4xl h-[90%] md:h-full w-[90px] relative"
           >
             <img
-              src="/public/prisy's logo.jpg"
+              src="/prisy's logo.jpg"
               className="absolute w-full h-full object-contain rounded-full"
-              alt="cake image"
+              alt="Logo"
             />
           </div>
         </div>
