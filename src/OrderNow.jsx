@@ -56,10 +56,10 @@ const OrderNow = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const images = [
-    "/public/Afang soup.jpg",
-    "/public/Egusi soup.jpg",
-    "/public/okro-soup.jpeg",
-    "/public/Spaghetti.jpg",
+    "/Afang soup.jpg",
+    "/Egusi soup.jpg",
+    "/okro-soup.jpeg",
+    "/Spaghetti.jpg",
   ];
 
   useEffect(() => {
