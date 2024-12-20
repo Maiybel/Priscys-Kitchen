@@ -1,5 +1,6 @@
 import "./styles.css";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Hero() {
   const handleWhatsappOrderClick = (phone) => {
@@ -15,7 +16,7 @@ function Hero() {
       <img
         src="/About us.jpg"
         className="absolute inset-0 w-full h-full object-cover"
-        alt="Food in Lagos"
+        alt="Food in Abuja"
       />
 
       <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/30 to-transparent"></div>
@@ -41,11 +42,8 @@ function Hero() {
               >
                 Order Now
               </button>
-              <button
-                onClick={navigateToMenu}
-                className="px-5 py-3 border border-orange-300 text-orange-300 rounded-lg hover:bg-orange-300 hover:text-black ease-in-out duration-200"
-              >
-                See our Menu
+              <button className="px-5 py-3 border border-orange-300 text-orange-300 rounded-lg hover:bg-orange-300 hover:text-black ease-in-out duration-200">
+                <Link to="/menu">See our Menu</Link>
               </button>
             </div>
           </article>
