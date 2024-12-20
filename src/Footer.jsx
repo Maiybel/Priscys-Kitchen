@@ -1,5 +1,6 @@
 import { FaInstagram, FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6"; // Fa6 includes the X icon (formerly Twitter)
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -32,26 +33,23 @@ h-auto gap-10 lg:gap-0
             <ul className="flex gap-4 lg:gap-12 flex-col lg:flex-row text-center lg:text-start">
               <li>
                 <div
-                  href={"/"}
                   className={`py-1 ease-in-out duration-100 hover:border-white`}
                 >
-                  Home
+                  <Link to="/">Home</Link>
                 </div>
               </li>
               <li>
                 <div
-                  href={"/menu"}
                   className={`py-1  ease-in-out duration-100 hover:border-white`}
                 >
-                  Menu
+                  <Link to="/menu">Menu</Link>
                 </div>
               </li>
               <li>
                 <div
-                  href={"/#contact"}
                   className={`py-1  ease-in-out duration-100 hover:border-white`}
                 >
-                  Contacts
+                  <Link to="/contact">Contacts</Link>
                 </div>
               </li>
             </ul>
