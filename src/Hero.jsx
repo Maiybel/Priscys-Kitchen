@@ -37,7 +37,7 @@ function Hero() {
             <div className="flex gap-4 animate-fadeInUp">
               <button
                 className="px-5 py-3 bg-orange-300 text-black rounded-lg shadow-md hover:shadow-xl ease-in-out duration-200"
-                onClick={() => handleWhatsappOrderClick("07036213932")}
+                onClick={() => handleWhatsappOrderClick("2347036213932")}
               >
                 Order Now
               </button>
