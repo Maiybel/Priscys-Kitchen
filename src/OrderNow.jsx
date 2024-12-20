@@ -97,7 +97,7 @@ const OrderNow = () => {
               href="mailto:lusciouschow.ng@gmail.com"
               className="lora-heading text-2xl hover:text-gray-300 transition-colors"
             >
-              lusciouschow.ng@gmail.com
+              priscyskitchen@gmail.com
             </a>
           </div>
 
