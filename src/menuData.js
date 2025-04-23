@@ -45,11 +45,12 @@ export const products = [
     },
     productPrice: 100,
     variations: [
-      { type: "2 Litres", price: 10000 },
-      { type: "3 Litres", price: 1500 },
-      { type: "5 Litres", price: 25000 },
+      { type: "2 Litres", price: "15,000" },
+      { type: "3 Litres", price: "20,000" },
+      { type: "5 Litres", price: "25,000" },
     ],
-    productDescription: "Delicious bread",
+    productDescription:
+      "Savory Nigerian soup made with Afang leaves and assorted meat",
   },
   {
     productName: "Fried Rice",
@@ -66,11 +67,11 @@ export const products = [
     },
     productPrice: 150,
     variations: [
-      { type: "2 Litres", price: 10000 },
-      { type: "3 Litres", price: 1500 },
-      { type: "5 Litres", price: 25000 },
+      { type: "2 Litres", price: "10,000" },
+      { type: "3 Litres", price: "15,000" },
+      { type: "5 Litres", price: "18,000" },
     ],
-    productDescription: "Tasty pastries",
+    productDescription: "",
   },
   {
     productName: "Banga Soup",
@@ -87,11 +88,12 @@ export const products = [
     },
     productPrice: 100,
     variations: [
-      { type: "Mini", price: 300 },
-      { type: "Midi", price: 500 },
-      { type: "Maxi", price: 700 },
+      { type: "2 litres", price: "20,000" },
+      { type: "3 litres", price: "23,000" },
+      { type: "5 litres", price: "25,000" },
     ],
-    productDescription: "Delicious bread",
+    productDescription:
+      "Flavorful palm fruit soup from the Niger Delta, made with fresh spices and a mix of meat and seafood.",
   },
   {
     productName: "Bitterleaf Soup",
@@ -108,11 +110,12 @@ export const products = [
     },
     productPrice: 100,
     variations: [
-      { type: "Mini", price: 300 },
-      { type: "Midi", price: 500 },
-      { type: "Maxi", price: 700 },
+      { type: "2 litres", price: "12,000" },
+      { type: "3 litres", price: "18,000" },
+      { type: "5 litres", price: "21,000" },
     ],
-    productDescription: "Delicious bread",
+    productDescription:
+      "Earthy and nourishing soup made with washed bitter leaves, stockfish, and assorted meats.",
   },
   {
     productName: "Chicken Sauce",
@@ -129,11 +132,11 @@ export const products = [
     },
     productPrice: 100,
     variations: [
-      { type: "Mini", price: 300 },
-      { type: "Midi", price: 500 },
-      { type: "Maxi", price: 700 },
+      { type: "2 litres", price: "15,000" },
+      { type: "3 litres", price: "20,000" },
+      { type: "5 litres", price: "23,000" },
     ],
-    productDescription: "Delicious bread",
+    productDescription: "",
   },
   {
     productName: "Egusi Soup",
@@ -150,11 +153,12 @@ export const products = [
     },
     productPrice: 100,
     variations: [
-      { type: "2 Litres", price: 10000 },
-      { type: "3 Litres", price: 1500 },
-      { type: "5 Litres", price: 25000 },
+      { type: "2 Litres", price: "15,000" },
+      { type: "3 Litres", price: "20,000" },
+      { type: "5 Litres", price: "23,000" },
     ],
-    productDescription: "Delicious bread",
+    productDescription:
+      "Rich West African soup made with ground melon seeds, leafy vegetables, and assorted meat.",
   },
   {
     productName: "Pounded Yam and Egusi soup",
@@ -171,11 +175,11 @@ export const products = [
     },
     productPrice: 100,
     variations: [
-      { type: "Mini", price: 300 },
-      { type: "Midi", price: 500 },
-      { type: "Maxi", price: 700 },
+      { type: "Mini", price: "4,000" },
+      { type: "Midi", price: "5,000" },
+      { type: "Maxi", price: "6,500" },
     ],
-    productDescription: "Delicious bread",
+    productDescription: "",
   },
   {
     productName: "Fried Rice",
@@ -192,11 +196,11 @@ export const products = [
     },
     productPrice: 100,
     variations: [
-      { type: "Mini", price: 300 },
-      { type: "Midi", price: 500 },
-      { type: "Maxi", price: 700 },
+      { type: "Mini", price: "3,500" },
+      { type: "Midi", price: "5,500" },
+      { type: "Maxi", price: "6,500" },
     ],
-    productDescription: "Delicious bread",
+    productDescription: " bread",
   },
   {
     productName: "Fried Rice",
@@ -213,11 +217,11 @@ export const products = [
     },
     productPrice: 100,
     variations: [
-      { type: "Mini", price: 300 },
-      { type: "Midi", price: 500 },
-      { type: "Maxi", price: 700 },
+      { type: "2 litres", price: "10,000" },
+      { type: "3 litres", price: "12,500" },
+      { type: "5 litres", price: "15,000" },
     ],
-    productDescription: "Delicious bread",
+    productDescription: "",
   },
   {
     productName: "Ogbono Soup",
@@ -234,11 +238,12 @@ export const products = [
     },
     productPrice: 100,
     variations: [
-      { type: "2 Litres", price: 10000 },
-      { type: "3 Litres", price: 1500 },
-      { type: "5 Litres", price: 25000 },
+      { type: "2 Litres", price: "10,000" },
+      { type: "3 Litres", price: "15,000" },
+      { type: "5 Litres", price: "25,000" },
     ],
-    productDescription: "Delicious bread",
+    productDescription:
+      "Thick and delicious draw soup made with wild mango seeds, simmered with assorted meats and vegetables.",
   },
 
   {
@@ -256,11 +261,11 @@ export const products = [
     },
     productPrice: 100,
     variations: [
-      { type: "Mini", price: 300 },
-      { type: "Midi", price: 500 },
-      { type: "Maxi", price: 700 },
+      { type: "2 litres", price: "12,000" },
+      { type: "3 litres", price: "15,000" },
+      { type: "5 litres", price: "20,000" },
     ],
-    productDescription: "Delicious bread",
+    productDescription: "",
   },
   {
     productName: "Oha Soup",
@@ -277,11 +282,12 @@ export const products = [
     },
     productPrice: 100,
     variations: [
-      { type: "Mini", price: 300 },
-      { type: "Midi", price: 500 },
-      { type: "Maxi", price: 700 },
+      { type: "2 litres", price: "12,000" },
+      { type: "3 litres", price: "18,000" },
+      { type: "5 litres", price: "23,000" },
     ],
-    productDescription: "Delicious bread",
+    productDescription:
+      "Traditional Igbo soup prepared with Oha leaves, thickened with cocoyam and cooked with assorted meats",
   },
   {
     productName: "Okro Soup",
@@ -298,14 +304,15 @@ export const products = [
     },
     productPrice: 100,
     variations: [
-      { type: "Mini", price: 300 },
-      { type: "Midi", price: 500 },
-      { type: "Maxi", price: 700 },
+      { type: "2 litres", price: "10,000" },
+      { type: "3 litres", price: "13,000" },
+      { type: "5 litres", price: "18,000" },
     ],
-    productDescription: "Delicious bread",
+    productDescription:
+      "Light and tasty Nigerian soup made with fresh okra, meat, and traditional spices",
   },
   {
-    productName: "Okro Soup",
+    productName: "Seafood Okro Soup",
     productCategory: {
       categoryName: "Soup",
       categoryImage: {
@@ -319,11 +326,12 @@ export const products = [
     },
     productPrice: 100,
     variations: [
-      { type: "Mini", price: 300 },
-      { type: "Midi", price: 500 },
-      { type: "Maxi", price: 700 },
+      { type: "2 litres", price: "12,000" },
+      { type: "3 litres", price: "15,000" },
+      { type: "5 litres", price: "20,000" },
     ],
-    productDescription: "Delicious bread",
+    productDescription:
+      "Spicy and aromatic riverine soup loaded with fresh fish, prawns, and other seafood delicacies.",
   },
   {
     productName: "Rice and Vegetable Sauce",
@@ -340,11 +348,11 @@ export const products = [
     },
     productPrice: 100,
     variations: [
-      { type: "Mini", price: 300 },
-      { type: "Midi", price: 500 },
-      { type: "Maxi", price: 700 },
+      { type: "Mini", price: "3,000" },
+      { type: "Midi", price: "4,500" },
+      { type: "Maxi", price: "6,000" },
     ],
-    productDescription: "Delicious bread",
+    productDescription: "",
   },
   {
     productName: "Snail Stew",
@@ -361,11 +369,11 @@ export const products = [
     },
     productPrice: 100,
     variations: [
-      { type: "Mini", price: 300 },
-      { type: "Midi", price: 500 },
-      { type: "Maxi", price: 700 },
+      { type: "2 litres", price: "18,000" },
+      { type: "3 litres", price: "22,000" },
+      { type: "5 litres", price: "26,000" },
     ],
-    productDescription: "Delicious bread",
+    productDescription: "",
   },
   {
     productName: "Spaghetti",
@@ -382,11 +390,11 @@ export const products = [
     },
     productPrice: 100,
     variations: [
-      { type: "Mini", price: 300 },
-      { type: "Midi", price: 500 },
-      { type: "Maxi", price: 700 },
+      { type: "Mini", price: "4,000" },
+      { type: "Midi", price: "5,500" },
+      { type: "Maxi", price: "7,500" },
     ],
-    productDescription: "Delicious bread",
+    productDescription: "",
   },
   {
     productName: "Stew",
@@ -403,11 +411,11 @@ export const products = [
     },
     productPrice: 100,
     variations: [
-      { type: "Mini", price: 300 },
-      { type: "Midi", price: 500 },
-      { type: "Maxi", price: 700 },
+      { type: "2 litres", price: "10,000" },
+      { type: "3 litres", price: "15,000" },
+      { type: "5 litres", price: "20,000" },
     ],
-    productDescription: "Delicious bread",
+    productDescription: "",
   },
   {
     productName: "White Soup",
@@ -424,11 +432,12 @@ export const products = [
     },
     productPrice: 100,
     variations: [
-      { type: "Mini", price: 300 },
-      { type: "Midi", price: 500 },
-      { type: "Maxi", price: 700 },
+      { type: "2 litres", price: "18,000" },
+      { type: "3 litres", price: "22,000" },
+      { type: "5 litres", price: "26,000" },
     ],
-    productDescription: "Delicious bread",
+    productDescription:
+      "Light and peppery white soup made with catfish and yam, native to Eastern Nigeria.",
   },
   {
     productName: "Yam and Egg Sauce",
@@ -445,11 +454,11 @@ export const products = [
     },
     productPrice: 100,
     variations: [
-      { type: "Mini", price: 300 },
-      { type: "Midi", price: 500 },
-      { type: "Maxi", price: 700 },
+      { type: "Mini", price: "3,000" },
+      { type: "Midi", price: "5,000" },
+      { type: "Maxi", price: "8,000" },
     ],
-    productDescription: "Delicious bread",
+    productDescription: "",
   },
   {
     productName: "Jollof Rice",
@@ -466,10 +475,10 @@ export const products = [
     },
     productPrice: 100,
     variations: [
-      { type: "Mini", price: 300 },
-      { type: "Midi", price: 500 },
-      { type: "Maxi", price: 700 },
+      { type: "Mini", price: "3,000" },
+      { type: "Midi", price: "5,000" },
+      { type: "Maxi", price: "6,500" },
     ],
-    productDescription: "Delicious bread",
+    productDescription: "",
   },
 ];
