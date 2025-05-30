@@ -1,8 +1,53 @@
-# React + Vite
+# Priscy's Kitchen
+A modern web application for an authentic Nigerian restaurant, built with React and Vite. This platform allows customers to explore traditional Nigerian dishes, view the menu, and place orders.
+## ✨ Features
+* Responsive design for all screen sizes
+* Dynamic menu categories and product listings
+* Auto-changing images in the hero section
+* Contact information and business hours
+* About section showcasing the restaurant's history
+* Order placement functionality
+## 🛠 Tech Stack
+* React
+* Vite
+* Tailwind CSS
+* React Router DOM
+* Git
+* Vercel (Deployment)
+## Prerequisites
+* Node.js (v14 or higher)
+* npm or yarn
+* Git
+## Install dependencies
+ ```bash
+   npm install
+```
+## Start the development server
+ ```bash
+   npm run dev
+```
+## 📁 Project Structure
+```
+priscys-kitchen/
+├── public/
+│   ├── Afang soup.jpg
+│   ├── stew.jpg
+│   ├── fried rice.jpg
+│   └── Spaghetti.jpg
+├── src/
+│   ├── components/
+│   │   ├── About.jsx
+│   │   ├── Header.jsx
+│   │   ├── Menu.jsx
+│   │   └── OrderNow.jsx
+│   ├── data/
+│   │   └── menuData.js
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
+```
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Project Link: https://priscys-kitchen.vercel.app/
