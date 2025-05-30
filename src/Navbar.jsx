@@ -127,7 +127,7 @@ const Navbar = () => {
               href={`tel:${businessPhone}`}
               className="flex gap-3 items-center tracking-wider text-customBlack"
             >
-              07036213932
+              08167853001
             </a>
             <button
               className="p-2 px-4 bg-black text-white tracking-wide md:ml-7"

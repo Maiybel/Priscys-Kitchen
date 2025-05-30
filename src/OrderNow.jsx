@@ -84,7 +84,7 @@ const OrderNow = () => {
           <div className="text-center md:text-left">
             <h3 className="text-customGray text-sm">Whatsapp</h3>
             <a
-              href="https://wa.me/2347036213932"
+              href="https://wa.me/2348167853001"
               className="lora-heading text-2xl flex gap-3 items-center hover:text-gray-300 transition-colors"
             >
               08167853001 ↗
@@ -94,7 +94,7 @@ const OrderNow = () => {
           <div className="text-center md:text-left">
             <h3 className="text-customGray text-sm">Email</h3>
             <a
-              href="mailto:lusciouschow.ng@gmail.com"
+              href="mailto:priscyskitchen.ng@gmail.com"
               className="lora-heading text-2xl hover:text-gray-300 transition-colors"
             >
               priscyskitchen@gmail.com
