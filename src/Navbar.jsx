@@ -62,7 +62,7 @@ import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const businessPhone = "2347036213932";
+  const businessPhone = "2348167853001";
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
