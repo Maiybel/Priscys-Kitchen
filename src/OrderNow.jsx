@@ -87,7 +87,7 @@ const OrderNow = () => {
               href="https://wa.me/2347036213932"
               className="lora-heading text-2xl flex gap-3 items-center hover:text-gray-300 transition-colors"
             >
-              07036213932 ↗
+              08167853001 ↗
             </a>
           </div>
 
